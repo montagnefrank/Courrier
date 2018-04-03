@@ -82,54 +82,46 @@
     });
 </script>       
 <?php
-/////////////////////////////////////////////////SCRIPTS DE INDEX///////////////////////////////////////
-if ($panel == "index.php") {
-    require ("assets/inventory/model.php");
+switch ($panel) {///////////////////////////////////////////////////////////////SELECTOR DE PANEL, DEPENDIENDO DEL PANEL, HACE LAS LLAMADAS A LOS ARCHIVOS CORRESPONDINETES
+    case "index.php":
+        require ("assets/inventory/model.php");
+        break;
+    case "leer.php":
+        require ("assets/oper/model.php");
+        break;
+    case "ingresos.php":
+        require ("assets/ingresos/model.php");
+        break;
+    case "configurar.php":
+        require ("assets/configuracion/model.php");
+        break;
+    case "discos.php":
+        require ("assets/discos/model.php");
+        break;
+    case "sucursal.php":
+        require ("assets/suc/model.php");
+        break;
+    case "dashboard.php":
+        echo "<script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiuiSiaQkYId2AJwdZqW-vVoR0VcqT50\"></script>";
+        echo "<script type='text/javascript' src='assets/dashboard/dashboard.js'></script>";
+        echo "<script type='text/javascript' src=\"assets/dashboard/echarts/dist/echarts.js\"></script>";
+        require ("assets/dashboard/dashboardscripts.php");
+        break;
+    case "checkout.php":
+        require ("assets/checkout/model.php");
+        break;
+    case "user.php":
+        require ("assets/users/model.php");
+        break;
+    case "user_config.php":
+        require ("assets/user_config/model.php");
+        break;
+    case "track.php":
+        echo "<script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiuiSiaQkYId2AJwdZqW-vVoR0VcqT50\"></script>";
+        require ("assets/track/model.php");
+        break;
+    case "boletos.php":
+        require ("assets/boletos/model.php");
+        break;
 }
-////////////////////////////////////////////////FIN SCRIPTS INDEX//////////////////////////////////
-/////////////////////////////////////////////////SCRIPTS DE LECTURAS//////////////////////////////////////
-if ($panel == "leer.php") {
-    require ("assets/oper/model.php");
-}
-/////////////////////////////////////////////////SCRIPTS DE INGRESOS//////////////////////////////////////
-if ($panel == "ingresos.php") {
-    require ("assets/ingresos/model.php");
-}
-/////////////////////////////////////////////////SCRIPTS DE CONFIGURACION//////////////////////////////////////
-if ($panel == "configurar.php") {
-    require ("assets/configuracion/model.php");
-}
-/////////////////////////////////////////////////SCRIPTS DE DISCOS//////////////////////////////////////
-if ($panel == "discos.php") {
-    require ("assets/discos/model.php");
-}
-/////////////////////////////////////////////////SCRIPTS DE DISCOS//////////////////////////////////////
-if ($panel == "sucursal.php") {
-    require ("assets/suc/model.php");
-}
-///////////////////////////////////////////////SCRIPTS DE DASHBOARD//////////////////////////////////////
-if ($panel == "dashboard.php") {
-    echo "<script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiuiSiaQkYId2AJwdZqW-vVoR0VcqT50\"></script>";
-    echo "<script type='text/javascript' src='assets/dashboard/dashboard.js'></script>";
-    echo "<script type='text/javascript' src=\"assets/dashboard/echarts/dist/echarts.js\"></script>";
-    require ("assets/dashboard/dashboardscripts.php");
-}
-/////////////////////////////////////////////////SCRIPTS DE DISCOS//////////////////////////////////////
-if ($panel == "checkout.php") {
-    require ("assets/checkout/model.php");
-}
-
-if ($panel == "user.php") {
-    require ("assets/users/model.php");
-}
-
-if ($panel == "user_config.php") {
-    require ("assets/user_config/model.php");
-}
-
-if ($panel == "track.php") {
-    echo "<script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiuiSiaQkYId2AJwdZqW-vVoR0VcqT50\"></script>";
-    require ("assets/track/model.php");
-}
-////////////////////////////////////////////////FIN SCRIPTS DASHBOARD/////////////////////////////////
 ?>

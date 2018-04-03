@@ -50,14 +50,15 @@
 
         if($_SESSION["usuario"]["idPerfil"] == "Super Usuario" || $_SESSION["usuario"]["idPerfil"] == "GERENTE / AFINES" || $_SESSION["usuario"]["idPerfil"] == "SOPORTE TECNICO"){
             echo '
-            <li class="dashboard"><a href="index.php?panel=dashboard.php#autoscroll"><span class="fas fa-tachometer-alt"></span><span class="xn-text"> Dashboard</span></a></li> 
-            <li class="pedidos"><a href="index.php?panel=index.php#autoscroll"><span class="fa fa-tags"></span><span class="xn-text"> Ingresos</span></a></li> 
-             <li class="pedidos"><a href="index.php?panel=leer.php#autoscroll"><span class="fa fa-barcode"></span><span class="xn-text"> Operaci&oacute;n</span></a></li> 
-             <li class="pedidos"><a href="index.php?panel=checkout.php#autoscroll"><i class="fas fa-box"></i><span class="xn-text"> Entregas</span></a></li> 
-             <li class="pedidos"><a href="index.php?panel=sucursal.php#autoscroll"><span class="fa fa-industry"></span><span class="xn-text"> Sucursales</span></a></li> 
-             <li class="pedidos"><a href="index.php?panel=discos.php#autoscroll"><span class="fa fa-truck"></span><span class="xn-text"> Discos</span></a></li>
-             <li class="pedidos"><a href="index.php?panel=track.php#autoscroll"><i class="fas fa-globe"></i><span class="xn-text"> Rastrear</span></a></li>
-             <li class="pedidos"><a href="index.php?panel=user.php#autoscroll"><i class="fas fa-users"></i><span class="xn-text"> Usuarios</span></a></li>
+                <li class="dashboard"><a href="index.php?panel=dashboard.php#autoscroll"><span class="fas fa-tachometer-alt"></span><span class="xn-text"> Dashboard</span></a></li> 
+                <li class="pedidos"><a href="index.php?panel=index.php#autoscroll"><span class="fa fa-tags"></span><span class="xn-text"> Ingresos</span></a></li> 
+                <li class="pedidos"><a href="index.php?panel=boletos.php#autoscroll"><i class="fas fa-ticket-alt"></i><span class="xn-text"> Boletería</span></a></li>
+                <li class="pedidos"><a href="index.php?panel=leer.php#autoscroll"><span class="fa fa-barcode"></span><span class="xn-text"> Operaci&oacute;n</span></a></li> 
+                <li class="pedidos"><a href="index.php?panel=checkout.php#autoscroll"><i class="fas fa-box"></i><span class="xn-text"> Entregas</span></a></li> 
+                <li class="pedidos"><a href="index.php?panel=sucursal.php#autoscroll"><span class="fa fa-industry"></span><span class="xn-text"> Sucursales</span></a></li> 
+                <li class="pedidos"><a href="index.php?panel=discos.php#autoscroll"><span class="fa fa-truck"></span><span class="xn-text"> Discos</span></a></li>
+                <li class="pedidos"><a href="index.php?panel=track.php#autoscroll"><i class="fas fa-globe"></i><span class="xn-text"> Rastrear</span></a></li>
+                <li class="pedidos"><a href="index.php?panel=user.php#autoscroll"><i class="fas fa-users"></i><span class="xn-text"> Usuarios</span></a></li>
             ';
         }
         ?>

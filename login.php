@@ -2,6 +2,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////DEBUG EN PANTALLA
 //error_reporting(E_ALL);
 //ini_set('display_errors', 1);
+header('Content-Type: text/html; charset=utf-8');
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -139,8 +140,8 @@
             <img class="logo" src="img/logo_rec.png" />
             <form method="post">
                 <input type="text" name="username" class="username" placeholder="Usuario">
-                <input type="password" name="password" class="password" placeholder="ContraseÃ±a">
-                <button type="submit">Iniciar SesiÃ³n</button>
+                <input type="password" name="password" class="password" placeholder="Contraseña">
+                <button type="submit">Iniciar Sesion</button>
                 <div class="error"><span>+</span></div>
                 <div class="notificacion" hidden></div>
             </form>
