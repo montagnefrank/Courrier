@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 26 Feb 2018 20:01:07 at http://aqvatarius.com/themes/taurus/html/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*http://aqvatarius.com/themes/taurus/html/*
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f0#f -F  -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://aqvatarius.com/themes/taurus/html/ -O1 "E:\httrack\taurus" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*http://aqvatarius.com/themes/taurus/html/* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:01:32	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/favicon.ico (from aqvatarius.com/themes/taurus/html/)
+20:10:43	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/js/plugins/ibutton/jquery.ibutton.js (from aqvatarius.com/themes/taurus/html/form_validation.html)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/fonts/glyphicons-halflings-regular.eot (from aqvatarius.com/themes/taurus/html/css/bootstrap/bootstrap.min.css)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/fonts/glyphicons-halflings-regular.eot? (from aqvatarius.com/themes/taurus/html/css/bootstrap/bootstrap.min.css)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/fonts/glyphicons-halflings-regular.woff2 (from aqvatarius.com/themes/taurus/html/css/bootstrap/bootstrap.min.css)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/fonts/glyphicons-halflings-regular.woff (from aqvatarius.com/themes/taurus/html/css/bootstrap/bootstrap.min.css)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/fonts/glyphicons-halflings-regular.ttf (from aqvatarius.com/themes/taurus/html/css/bootstrap/bootstrap.min.css)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/fonts/glyphicons-halflings-regular.svg (from aqvatarius.com/themes/taurus/html/css/bootstrap/bootstrap.min.css)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/mcustomscrollbar/mCSB_buttons.png (from aqvatarius.com/themes/taurus/html/css/mcustomscrollbar/jquery.mCustomScrollbar.css)
+20:10:44	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/css/img/arrows-active.png (from aqvatarius.com/themes/taurus/html/css/elfinder/elfinder.min.css)
+20:11:31	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/assets/img/example/user/alexey.jpg (from aqvatarius.com/themes/taurus/html/assets/ajax_modal_content.html)
+20:11:31	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/assets/img/example/user/olga.jpg (from aqvatarius.com/themes/taurus/html/assets/ajax_modal_content.html)
+20:11:31	Error: 	"Not Found" (404) at link aqvatarius.com/themes/taurus/html/assets/img/example/user/helen.jpg (from aqvatarius.com/themes/taurus/html/assets/ajax_modal_content.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 24 seconds : 260 links scanned, 246 files written (18027617 bytes overall) [15111258 bytes received at 24216 bytes/sec], 4029826 bytes transferred using HTTP compression in 144 files, ratio 25%, 10.4 requests per connection
+(13 errors, 0 warnings, 0 messages)
