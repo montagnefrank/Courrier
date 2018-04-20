@@ -20,7 +20,7 @@ $result_ingredientes_list = mysqli_query($conn, $select_ingredientes_list);
                     <span class="fas fa-exclamation-circle fa-5x"></span>
                 </div>
                 <div class="widget-data">
-                    <div class="widget-title">Notificación</div>
+                    <div class="widget-title">NotificaciÃ³n</div>
                     <div class="widget-subtitle">
                         <div role="alert" class="customalert_text">
                             Mensaje de error
@@ -44,7 +44,7 @@ $result_ingredientes_list = mysqli_query($conn, $select_ingredientes_list);
                                 <div class="input-group-addon">
                                     <span class="fa fa-user"></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Ticket de Envío" id="cedula_input"/>
+                                <input type="text" class="form-control" placeholder="Ticket de Envio" id="cedula_input"/>
                             </div>
                         </div>
                     </div>
